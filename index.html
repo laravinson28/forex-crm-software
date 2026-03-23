@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex CRM Cost Calculator | Estimate Your Brokerage Setup</title>
+    <meta name="description" content="Calculate the estimated cost of launching your Forex brokerage. Get a customized quote for our White-Label Forex CRM, MT4/MT5 integrations, and Trader's Room.">
+    <meta name="keywords" content="Forex CRM cost, White label forex broker price, MT4 MT5 integration cost, start forex brokerage, Fourchain CRM pricing">
+    
+    <style>
+        /* Modern Blue & White Theme */
+        :root {
+            --primary: #0056b3;
+            --primary-light: #e6f0fa;
+            --secondary: #00a8ff;
+            --text-dark: #1f2937;
+            --text-muted: #6b7280;
+            --bg-white: #ffffff;
+            --bg-gray: #f8fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-dark);
+            background-color: var(--bg-gray);
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #003d82 100%);
+            color: var(--bg-white);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+            opacity: 0.9;
+        }
+
+        .btn-outline {
+            display: inline-block;
+            padding: 12px 28px;
+            border: 2px solid var(--bg-white);
+            color: var(--bg-white);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-outline:hover {
+            background-color: var(--bg-white);
+            color: var(--primary);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 50px auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .calculator-wrapper {
+            background: var(--bg-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            overflow: hidden;
+        }
+
+        /* Left Side: Options */
+        .options-section {
+            padding: 40px;
+            background-color: var(--bg-white);
+            border-right: 1px solid #e5e7eb;
+        }
+
+        .options-section h2 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        select, input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        select:focus, input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px rgba(0, 168, 255, 0.1);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            padding: 10px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .checkbox-group:hover {
+            background: var(--primary-light);
+            border-color: #b3d4fc;
+        }
+
+        .checkbox-group input {
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checkbox-group label {
+            margin: 0;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        /* Right Side: Lead Form */
+        .lead-section {
+            padding: 40px;
+            background-color: var(--primary-light);
+        }
+
+        .lead-section h2 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .lead-section p {
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 14px;
+            background-color: #25D366; /* WhatsApp Green */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-submit:hover {
+            background-color: #1ebc5a;
+        }
+
+        /* SEO Content Section */
+        .seo-content {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+            color: var(--text-muted);
+        }
+
+        .seo-content h3 {
+            color: var(--text-dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .calculator-wrapper {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Forex Brokerage Setup Cost Calculator</h1>
+        <p>Plan your budget efficiently. Select your technical requirements below to get a customized, transparent price estimate for launching your White-Label brokerage.</p>
+        <a href="https://www.fourchain.com/services/forex-crm" class="btn-outline" target="_blank">View Full Product Details</a>
+    </header>
+
+    <div class="container">
+        <div class="calculator-wrapper">
+            
+            <div class="options-section">
+                <h2>1. Select Your Requirements</h2>
+                
+                <div class="form-group">
+                    <label for="crmTier">CRM Architecture Tier</label>
+                    <select id="crmTier">
+                        <option value="Startup CRM">Startup (Basic IB & Core Features)</option>
+                        <option value="Professional CRM" selected>Professional (Advanced Multi-tier IB, Full KYC)</option>
+                        <option value="Enterprise CRM">Enterprise (Custom UI, API Access, Dedicated Server)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Essential Integrations</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="mt4" value="MT4/MT5 Bridge" checked>
+                        <label for="mt4">MT4 / MT5 Server Bridge</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="crypto" value="Crypto Gateway">
+                        <label for="crypto">Crypto Payment Gateway Integration</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="fiat" value="Fiat Gateway">
+                        <label for="fiat">Fiat PSP Routing (Credit Card/Wire)</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="traderVolume">Expected Active Traders (Monthly)</label>
+                    <select id="traderVolume">
+                        <option value="0 - 1,000 Traders">0 - 1,000 Traders</option>
+                        <option value="1,000 - 5,000 Traders">1,000 - 5,000 Traders</option>
+                        <option value="5,000+ Traders">5,000+ Traders</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="lead-section">
+                <h2>2. Get Your Estimate</h2>
+                <p>We've analyzed your configuration. Fill in your details below to receive your personalized quote instantly via WhatsApp.</p>
+                
+                <form id="quoteForm" onsubmit="generateWhatsAppLink(event)">
+                    <div class="form-group">
+                        <label for="userName">Full Name *</label>
+                        <input type="text" id="userName" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="userCountry">Country *</label>
+                        <input type="text" id="userCountry" required placeholder="e.g., United Kingdom, UAE">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userContact">Email or WhatsApp Number *</label>
+                        <input type="text" id="userContact" required placeholder="+44 123 456 / john@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userMessage">Any specific questions? (Optional)</label>
+                        <textarea id="userMessage" rows="3" placeholder="Tell us about your timeline or custom needs..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.063 3.963L0 16l4.223-1.108c1.151.625 2.454.954 3.765.955h.003c4.368 0 7.926-3.558 7.93-7.926a7.83 7.83 0 0 0-2.32-5.595zM7.994 14.453c-1.185-.001-2.346-.319-3.361-.92l-.241-.143-2.497.655.666-2.433-.157-.25a6.45 6.45 0 0 1-.986-3.415c.003-3.567 2.903-6.467 6.473-6.467 1.728.001 3.353.676 4.575 1.899a6.43 6.43 0 0 1 1.896 4.576c-.004 3.566-2.903 6.466-6.471 6.466z"/>
+                            <path d="M11.884 9.48c-.213-.107-1.263-.623-1.458-.694-.195-.07-.337-.107-.48.107-.142.214-.548.694-.67.836-.123.143-.247.16-.46.054-.213-.107-.902-.333-1.718-.985-.636-.51-1.065-1.14-1.19-1.354-.124-.214-.013-.331.094-.438.096-.096.213-.248.32-.372.107-.124.142-.214.213-.357.072-.143.036-.268-.018-.375-.054-.107-.48-1.157-.657-1.583-.173-.417-.348-.361-.48-.367-.123-.006-.268-.007-.41-.007s-.372.054-.567.268c-.195.214-.744.727-.744 1.774 0 1.047.762 2.06 8.868 2.203.107.143.762 1.157 1.844 1.25.107.014.214-.044.268-.143l.426-1.995c.054-.25.054-.464.036-.51-.018-.046-.072-.07-.285-.177z"/>
+                        </svg>
+                        Get Price Estimate on WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="seo-content">
+        <h3>Why Calculate Your Forex CRM Architecture Costs Early?</h3>
+        <p>Launching a profitable Forex brokerage requires a solid technological foundation. Understanding your operational expenses—from MT4/MT5 bridge integrations to multi-level IB management systems—helps you scale efficiently without hidden costs.</p>
+        <p>Our intelligent calculator gathers your specific operational requirements to provide a highly tailored setup and monthly maintenance estimate, ensuring you only pay for the infrastructure you actively need to process trades, manage compliance, and grow your network.</p>
+    </section>
+
+    <script>
+        function generateWhatsAppLink(event) {
+            // Prevent standard form submission
+            event.preventDefault();
+
+            // 1. Gather User Details
+            const name = document.getElementById('userName').value;
+            const country = document.getElementById('userCountry').value;
+            const contact = document.getElementById('userContact').value;
+            const message = document.getElementById('userMessage').value;
+
+            // 2. Gather Configuration Options
+            const crmTier = document.getElementById('crmTier').value;
+            const traderVolume = document.getElementById('traderVolume').value;
+            
+            // Gather checkboxes
+            let integrations = [];
+            if(document.getElementById('mt4').checked) integrations.push("MT4/MT5 Bridge");
+            if(document.getElementById('crypto').checked) integrations.push("Crypto Gateway");
+            if(document.getElementById('fiat').checked) integrations.push("Fiat Gateway");
+            const integrationsText = integrations.length > 0 ? integrations.join(", ") : "None selected";
+
+            // 3. Construct WhatsApp Message (URL Encoded)
+            let waMessage = `*New Forex CRM Price Request*%0A%0A`;
+            waMessage += `*Client Details:*%0A`;
+            waMessage += `- Name: ${name}%0A`;
+            waMessage += `- Country: ${country}%0A`;
+            waMessage += `- Contact: ${contact}%0A%0A`;
+            
+            waMessage += `*Selected Requirements:*%0A`;
+            waMessage += `- CRM Tier: ${crmTier}%0A`;
+            waMessage += `- Integrations: ${integrationsText}%0A`;
+            waMessage += `- Expected Volume: ${traderVolume}%0A%0A`;
+            
+            if(message.trim() !== "") {
+                waMessage += `*Additional Note:*%0A${message}`;
+            }
+
+            // 4. Redirect to Fourchain WhatsApp
+            const targetPhoneNumber = "919677703774";
+            const whatsappURL = `https://api.whatsapp.com/send/?phone=${targetPhoneNumber}&text=${waMessage}`;
+            
+            // Open in new tab
+            window.open(whatsappURL, '_blank');
+        }
+    </script>
+</body>
+</html>

@@ -79,6 +79,9 @@ Client queries get routed to the right department automatically. Tickets are tra
 ### AI-Powered FX Chatbot
 Round-the-clock automated responses for common account queries, deposit status checks, and onboarding questions. Reduces support load while keeping traders informed instantly.
 
+### PAMM Module (Percent Allocation Management)
+Enable professional money managers to trade for multiple investors with automated profit allocation, real-time fee calculations, and dedicated master dashboards.
+
 ### Analytics and Business Intelligence
 From trader activity heatmaps to revenue forecasts, the analytics module turns raw brokerage data into actionable decisions. Track conversion rates, IB performance, deposit trends, and client lifetime value — all in real time.
 

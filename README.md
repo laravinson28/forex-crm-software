@@ -1,19 +1,8 @@
-# Forex CRM Software — Built for Brokers Who Mean Business
+# Forex CRM Provider for Brokers & Brokerage Firms | Fourchain
 
-<div align="center">
-
-[![Forex CRM Software](https://img.shields.io/badge/Forex%20CRM-Software-0A66C2?style=for-the-badge)](https://www.fourchain.com/services/forex-crm)
-[![White Label Forex CRM](https://img.shields.io/badge/White%20Label-Forex%20CRM-16A34A?style=for-the-badge)](https://www.fourchain.com/services/forex-crm)
-[![MT4 MT5 Ready](https://img.shields.io/badge/MT4%20%7C%20MT5-Integration%20Ready-F59E0B?style=for-the-badge)](https://www.fourchain.com/services/forex-crm)
-[![IB Management](https://img.shields.io/badge/Multi--Level-IB%20Management-DC2626?style=for-the-badge)](https://www.fourchain.com/services/forex-crm)
-
-<br/>
-
-**A complete Forex CRM Software solution — from lead capture to trader retention, all in one platform.**
+**Fourchain is the leading Forex CRM provider for global brokerages, offering native MT4/MT5 integration, multi-tier IB portals, and back-office automation.**
 
 [🚀 Request Demo](https://www.fourchain.com/contact-us) &nbsp;|&nbsp; [💬 WhatsApp Us](https://api.whatsapp.com/send/?phone=919677703774) &nbsp;|&nbsp; [🌐 Visit Fourchain](https://www.fourchain.com/forex-crm-software)
-
-</div>
 
 ---
 

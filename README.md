@@ -11,7 +11,7 @@
 
 **A complete Forex CRM Software solution — from lead capture to trader retention, all in one platform.**
 
-[🚀 Request Demo](https://www.fourchain.com/contact-us) &nbsp;|&nbsp; [💬 WhatsApp Us](https://api.whatsapp.com/send/?phone=919677703774) &nbsp;|&nbsp; [🌐 Visit Fourchain](https://www.fourchain.com/services/forex-crm)
+[🚀 Request Demo](https://www.fourchain.com/contact-us) &nbsp;|&nbsp; [💬 WhatsApp Us](https://api.whatsapp.com/send/?phone=919677703774) &nbsp;|&nbsp; [🌐 Visit Fourchain](https://www.fourchain.com/forex-crm-software)
 
 </div>
 
@@ -25,7 +25,7 @@ Running a Forex brokerage involves juggling dozens of moving parts — client on
 
 Unlike off-the-shelf solutions, a dedicated **Forex CRM developer** builds the system around brokerage-specific logic: multi-tier IB structures, MT4/MT5 account synchronization, KYC pipelines, and regulated payment flows. The result is a platform that doesn't just store data — it actively moves your business forward.
 
-> 🔗 Learn more: [Fourchain Forex CRM Software](https://www.fourchain.com/services/forex-crm)
+> 🔗 Learn more: [Fourchain Forex CRM Software](https://www.fourchain.com/forex-crm-software)
 
 ---
 
@@ -185,7 +185,7 @@ The compliance engine is configurable for FCA, CySEC, ASIC, FSCA, and other majo
 
 | Channel | Details |
 |---|---|
-| 🌐 Product Page | [fourchain.com/services/forex-crm](https://www.fourchain.com/services/forex-crm) |
+| 🌐 Product Page | [fourchain.com/services/forex-crm](https://www.fourchain.com/forex-crm-software) |
 | 📧 Email | business@fourchain.com |
 | 📱 WhatsApp | [+91 9677703774](https://api.whatsapp.com/send/?phone=919677703774) |
 | 💬 Telegram | [t.me/Fourchaintech](https://telegram.me/Fourchaintech) |
